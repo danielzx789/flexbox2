@@ -1,0 +1,71 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+     flex-direction: row;
+
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    display: flex;
+}
+
+.box1 {
+    background-color: #63b1bc;
+    align-self: flex-end;
+
+}
+
+.box2 {
+    background-color: #1f2a44;
+        align-self: flex-end;
+
+}
+
+.box3 {
+    background-color: #ed145b;
+        align-self: flex-end;
+
+}
+
+.box4 {
+    background-color: #efb661;
+        align-self: flex-end;
+
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    justify-content: flex-start;
+}
+
+.container2 {
+    justify-content: flex-end;
+
+}
+
+.container3 {
+    justify-content: center;
+}
+
+.container4 {
+        justify-content: space-between;
+}
+.container5 {
+        justify-content: space-around;
+}
+.container6 {
+        justify-content: space-evenly;
+}
